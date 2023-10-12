@@ -70,7 +70,6 @@ public class School {
 	        }
 	    }
 	}
-
 	
 	private static void updateStudent(Connection connection, Scanner scanner) throws SQLException {
 	    System.out.print("Enter student's ID: ");
@@ -112,7 +111,6 @@ public class School {
 	        }
 	    }
 	}
-
 	
 	private static void deleteStudent(Connection connection, Scanner scanner) throws SQLException {
 	    System.out.print("Enter student's ID: ");
@@ -132,8 +130,6 @@ public class School {
 	        }
 	    }
 	}
-
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
